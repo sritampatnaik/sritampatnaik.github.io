@@ -198,8 +198,8 @@ header .header-content .header-content-inner p {
 .testimonial-cards li>div {
     background: var(--text-1);
     border-radius: 7px;
-    min-height: 475px;
-    padding: 30px 0px 60px;
+    min-height: 480px;
+    padding: 30px 0px 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,.05);
 }
