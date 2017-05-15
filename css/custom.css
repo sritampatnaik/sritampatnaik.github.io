@@ -40,6 +40,15 @@ header {
     background-color: transparent;
 }
 
+.navbar-default .navbar-header .navbar-toggle {
+	color: var(--text-1);
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
 .in-touch-pill {
 	border: 2px solid var(--border-1);
 	border-radius: 50px;
@@ -189,7 +198,7 @@ header .header-content .header-content-inner p {
 .testimonial-cards li>div {
     background: var(--text-1);
     border-radius: 7px;
-    min-height: 495px;
+    min-height: 475px;
     padding: 30px 0px 60px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,.05);
@@ -304,6 +313,13 @@ blockquote {
 	    height: 100%;
 	    top: 0;
 	    left: 50%;
+	}
+	header .header-content .header-content-inner h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	header .header-content .header-content-inner p {
+		font-size: 14px;
 	}
 }
 
