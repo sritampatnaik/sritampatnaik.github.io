@@ -104,7 +104,8 @@
 .in-touch-pill {
 	border-radius: 50px;
 	opacity: 1 !important;
-	padding: 15px 30px !important;
+	padding: 8px 30px !important;
+	margin-top: 5px;
   	border: 3px var(--background-1) solid;
   	transition: all 0.5s ease-out;
 }
@@ -434,6 +435,9 @@ blockquote {
 	}
 	.header .header-content .header-content-inner p {
 		font-size: 14px;
+	}
+	.navbar-default .navbar-header .navbar-toggle {
+    	color: var(--text-1);
 	}
 }
 

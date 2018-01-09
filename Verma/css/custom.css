@@ -19,11 +19,10 @@ header {
 #video-background {
 /*  making the video fullscreen  */
   position: fixed;
-  right: 0; 
-  bottom: 0;
+  top: 0; 
   min-width: 100%; 
   min-height: 100%;
-  width: auto; 
+  width: 100%; 
   height: auto;
   z-index: -100;
 }
@@ -48,6 +47,15 @@ header {
 	font-weight: 500;
 	margin-left: 7px;
     margin-right: 7px;
+    padding-bottom: 5px;
+}
+
+
+.navbar-default .nav > li.active > a, 
+.navbar-default .nav > li.active > a:focus {
+    opacity: 1;
+	color: var(--text-1);
+    background-color: transparent;
 }
 
 .navbar-default.affix .nav > li > a, 
@@ -56,14 +64,8 @@ header {
 }
 .navbar-default.affix .nav > li > a:hover, 
 .navbar-default.affix .nav > li > a:focus:hover {
-	opacity: 1;
 	color: var(--text-1);
-}
-.navbar-default .nav > li.active > a, 
-.navbar-default .nav > li.active > a:focus {
-    opacity: 1;
-	color: var(--text-1);
-    background-color: transparent;
+	border-bottom: 3px var(--background-1) solid;
 }
 
 .navbar-default .navbar-header .navbar-toggle {
@@ -86,7 +88,8 @@ header {
 	margin-right: 7px;
 	border-radius: 50px;
 	opacity: 1 !important;
-	padding: 15px 30px !important;
+	padding: 8px 30px !important;
+	margin-top: 5px;
   	border: 3px transparent solid;
   	transition: all 0.5s ease-out;
 }
@@ -233,7 +236,7 @@ header {
 #clients, #testimonials > .panel.alt {
 	background: var(--background-1);
 	margin-bottom: 0px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 #services .service-holder {
@@ -250,6 +253,7 @@ header {
 
 #services .service-holder img {
 	width: 40px;
+	margin-bottom: 5px;
 }
 
 #services .service-holder h2 {
@@ -485,14 +489,27 @@ blockquote {
 	    left: 50%;
 	}*/
 	header .header-content .header-content-inner h1 {
-		font-size: 40px;
-		line-height: 50px;
+		font-size: 25px;
+	    line-height: 30px;
+	    margin-top: 50px;
 	}
-	header .header-content .header-content-inner p {
-		font-size: 14px;
+	header .header-content .header-content-inner h2 {
+		margin-top: 10px;
+    	font-size: 18px;
 	}
 	#contact .main-holder {
 		flex-direction: column;
+	}
+	.navbar-default .purple-logo{
+		display: block!important;
+
+	}
+	.navbar-default .white-logo{
+		display: none;
+	}
+	.navbar-default .nav > li > a{
+	    color: var(--text-1);
+	    font-weight: 700;
 	}
 }
 
@@ -527,6 +544,7 @@ blockquote {
 	.navbar-default.affix .nav > li > a:hover, 
 	.navbar-default.affix .nav > li > a:focus:hover {
 		color: var(--text-1);
+		border-bottom: 3px var(--text-1) solid;
 	}
 	.navbar-default .nav > li.active > a, 
 	.navbar-default .nav > li.active > a:focus {
