@@ -178,6 +178,12 @@
 	font-weight: 500;
 	color: var(--text-1);
 }
+.header .header-content .header-content-inner h2 {
+		font-family: 'Roboto', sans-serif;
+		color: var(--header-text-1);
+		margin-top: 30px;
+    	font-size: 18px;
+	}
 .desc-content h1 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 32px;
@@ -432,6 +438,13 @@ blockquote {
 	.header .header-content .header-content-inner h1 {
 		font-size: 40px;
 		line-height: 50px;
+	}
+	.header .header-content .header-content-inner h2 {
+		font-family: 'Roboto', sans-serif;
+		color: var(--header-text-1);
+		margin-top: 10px;
+    	font-size: 14px;
+    	padding: 10px;
 	}
 	.header .header-content .header-content-inner p {
 		font-size: 14px;
