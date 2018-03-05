@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Trajan Pro";
+    src: url("css/fonts/Trajan Pro.ttf");
+}
+@font-face {
+    font-family: "Futura";
+    src: url("css/fonts/Futura.otf");
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trajan Pro", Times, serif;
+}
+
+.nav-bar {
+    padding: 20px 30px;
+}
+
+.main-header {
+
+    border-style: solid;
+    border-width: 7px 0 7px 0;
+    border-image-source: url("../img/pattern@2x.png");
+    border-image-slice: 21;
+    border-image-width: 6px 0 6px 0;
+    border-image-repeat: round;
+    background-image: url("../img/apollo_bg-min.jpg");
+    background-size: cover;
+    padding: 50px 30px;
+}
+
+.main-header .header-text {
+    margin-top: 50px;
+    color: var(--main-header-color);
+}
+
+.main-header .desc-text {
+    color: var(--main-text-color);
+    font-family: "Futura", "serif";
+}
+
+.break-header {
+    padding: 30px;
+}
+.break-header .header-text{
+    color: var(--main-header-color);
+}
+.roulette-table-cont {
+    background-image: url("../img/roulette_table-min.jpg");
+    padding: 20px 0px;
+}
+.roulette-table-cont .header-text {
+    color: var(--main-header-color);
+    margin-top: 20px;
+}
+.roulette-table {
+    border-style: solid;
+    border-width: 7px 0 7px 0;
+    border-image-source: url("../img/pattern@2x.png");
+    border-image-slice: 21;
+    border-image-width: 6px 0 6px 0;
+    border-image-repeat: round;
+    padding: 50px 30px;
+}
+
+.rlt-wheel {
+    width: 200px;
+    -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
