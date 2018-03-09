@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Raleway:700|Roboto:300,300i,400,700');
+@font-face {
+    font-family: "SF Display Bold";
+    src: url("fonts/SF/SF-Pro-Display-Bold.otf");
+}
+@font-face {
+    font-family: "SF Display Light";
+    src: url("fonts/SF/SF-Pro-Display-Light.otf");
+}
+@font-face {
+    font-family: "SF Display SemiBold";
+    src: url("fonts/SF/SF-Pro-Display-Semibold.otf");
+}
+@font-face {
+    font-family: "SF Text Regular";
+    src: url("fonts/SF/SF-Pro-Text-Regular.otf");
+}
+@font-face {
+    font-family: "SF Text Bold";
+    src: url("fonts/SF/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+    font-family: "SF Text RegularItalic";
+    src: url("fonts/SF/SF-Pro-Text-RegularItalic.otf");
+}
